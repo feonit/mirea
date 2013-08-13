@@ -1,6 +1,6 @@
 <?php
 	// создаем базу данных и таблицу  gb
-	$link = @mysql_connect('mysql.hostinger.ru','u820212374_root','pe104767');
+	$link = @mysql_connect('цензура');
 if (!$link) {
     die('Not connected : ' . mysql_error());
 }
