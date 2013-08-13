@@ -1,0 +1,135 @@
+		* {
+		padding:0;
+		margin:0;
+		color:#ffffff;
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		}
+		
+		html {
+		background:#333333;
+		max-width:1680px;
+		margin:auto;
+		}
+		
+		#header {
+		height:80px;
+		padding-bottom:0px;
+		background:#333333;	
+		}
+		
+		#logo {
+		float:left;
+		background:#333333;	
+		width:50%;
+		padding-left:100px;
+		height:100%;
+		-webkit-border-bottom-right-radius: 50px;
+		-moz-border-radius-bottomright: 50px;
+		border-bottom-right-radius: 50px;
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 1.25em;
+		line-height: 126%;
+		letter-spacing: -0.05em;
+		text-shadow: white 0 0 4px;
+
+		}
+		
+		#login {
+		background:#666666;
+		height:100%;
+		padding-right:67px;
+		text-align: right;
+		font-family: 'MS Sans Serif', Geneva, sans-serif;
+		font-size: 0.9em;
+		line-height: 126%;
+		letter-spacing: 0.65em;
+		text-shadow: white 0 0 4px;
+
+		}
+		
+		#content {
+		background:#999999;
+		overflow: hidden;
+		color:#333333;
+		}
+		
+		#inside {
+		background:#CCCCCC;
+		position: relative;
+		left: 50%;
+		float: left;
+		-webkit-border-top-left-radius: 50px;
+		-webkit-border-bottom-left-radius: 50px;
+		-moz-border-radius-topleft: 50px;
+		-moz-border-radius-bottomleft: 50px;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+		}
+		
+		#inside #p {
+		position: relative;
+		right: 50%;
+		z-index: 1;
+		}
+		
+		table {
+		float:left;
+		margin:50px 30px;
+		background:#660033;
+		border: 3px solid #333333;
+		border-collapse: collapse;
+		}		
+		
+		thead {
+		font-size: 15pt;
+		}
+		
+		td {
+		color:#999999;
+		border: 1px solid black;
+		padding:3px 7px 3px 10px;
+		}
+
+		#content :last-child {
+		}
+		
+		#footer {
+		height:50px;
+		padding-top:20px;
+		background:#999999;
+		}
+		
+		#counter {
+		float:left;
+		width:15%;
+		height:99%;
+		font-family: 'MS Sans Serif', Geneva, sans-serif;
+		font-size: 0.9em;
+		line-height: 126%;
+		letter-spacing: 0.65em;
+		padding:20px 0 10px 20px;
+		text-shadow: white 0 0 4px;
+		background: #666666; /* Old browsers */
+		background: -moz-linear-gradient(top,  #666666 26%, #207cca 36%, #2989d8 40%, #666666 52%, #666666 63%, #333333 64%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,#666666), color-stop(36%,#207cca), color-stop(40%,#2989d8), color-stop(52%,#666666), color-stop(63%,#666666), color-stop(64%,#333333)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #666666 26%,#207cca 36%,#2989d8 40%,#666666 52%,#666666 63%,#333333 64%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #666666 26%,#207cca 36%,#2989d8 40%,#666666 52%,#666666 63%,#333333 64%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #666666 26%,#207cca 36%,#2989d8 40%,#666666 52%,#666666 63%,#333333 64%); /* IE10+ */
+		background: linear-gradient(to bottom,  #666666 26%,#207cca 36%,#2989d8 40%,#666666 52%,#666666 63%,#333333 64%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+		}
+		
+		#contacts {
+		background:#666666;
+		height:100%;
+		font-family: 'MS Sans Serif', Geneva, sans-serif;
+		font-size: 0.9em;
+		line-height: 126%;
+		letter-spacing: 0.65em;
+		text-shadow: white 0 0 4px;
+
+		}
+		
+		.selected td{
+		color: black;
+		}

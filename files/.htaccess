@@ -1,0 +1,18 @@
+Options -Indexes
+Options -MultiViews
+ErrorDocument 403 /403.php 
+RewriteBase /
+
+RemoveHandler .html .htm
+AddType application/x-httpd-php .php .htm .html .phtml
+
+DirectoryIndex index.php index.html
+#http://al.ndd.ru/12/apache-conf_access.html  http://terminator.at.ua/faq/1-1
+
+#заменить в ссылках .php на / 
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+AddDefaultCharset UTF-8
